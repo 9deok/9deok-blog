@@ -2,7 +2,15 @@
 test : test
 ---
 
+[[글쓰기 테스트]]
+
 ![[profile.gif]]
 
-> 이 블로그는 기술 블로그이자 세컨드 브레인을 위한 지식 기록 블로그입니다.
 
+```dataview
+TABLE WITHOUT ID file.link AS "최신 글"
+WHERE date(today) - file.mtime
+WHERE file.name != this.file.name
+SORT file.mtime DESC
+LIMIT 5
+```
