@@ -1,16 +1,16 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/rna-sequence/obsidian-zola-9deok __site && __site/run.sh"
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/rna-sequence/obsidian-zola-9deok.git __site && __site/run.sh"
 publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "Enter my blog👆"
+LANDING_BUTTON = "Click to steal some👆"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "I have nothing but intelligence."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "home"
 # (Optional) Site title on landing page
-LANDING_TITLE = "I love obsidian-zola! 222"
+LANDING_TITLE = "I love obsidian-zola! 💖"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/9deok/9deok-blog"
@@ -22,7 +22,7 @@ SITE_TITLE_TAB = ""
 SITE_URL = "https://9deok.netlify.app"
 # (Optional) Site Timezone
 TIMEZONE = "Asia/Seoul"
-ZOLA_VERSION = "0.15.2"
+ZOLA_VERSION = "0.16.1"
 # (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
 SORT_BY = "title"
 # (Optional) Google Analytics Measurement ID
@@ -38,7 +38,7 @@ SIDEBAR_COLLAPSED = ""
 # (Optional, default blank) Additional footer content.
 FOOTER = ""
 # (Optional, default main) Root section name.
-ROOT_SECTION_NAME = "0. introduction"
+ROOT_SECTION_NAME = "0. instroduction"
 # (Optional) visjs graph options. Can remove if desired.
 GRAPH_OPTIONS = """
         {
