@@ -1,6 +1,11 @@
-[[글쓰기 테스트]]
 
-![[profile.gif]]
+### 김구덕의 블로그
+![[blog-image.jpeg]]
 
-digital-garden 이걸로 바꾸자.
-https://github.com/TuanManhCao/digital-garden
+소프트웨어 개발 관련 글과 개인적인 성장에 관한 글 들을 포스팅 합니다.
+
+### 최신 업로드
+1. 아직 없음
+
+### 추천 글
+1. 아직 없음
