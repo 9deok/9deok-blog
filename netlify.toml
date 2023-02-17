@@ -74,6 +74,7 @@ GRAPH_OPTIONS = """
         	},
         }
         """
+
 [[plugins]]
 package = "netlify-plugin-submit-sitemap"
 
@@ -91,7 +92,5 @@ ignorePeriod = 0
 # Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
 providers = [
   "google",
-  "bing",
-  "yandex",
-  "naver",
+  "yandex"
 ]
